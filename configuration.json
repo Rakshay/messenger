@@ -1,0 +1,15 @@
+{
+  "port": 5000,
+  "mongoDb": {
+    "userName": "***",
+    "password": "***",
+    "host": "***.mlab.com",
+    "port": "17956",
+    "dbName": "***"
+  },
+  "facebook": {
+    "appSecret": "***",
+    "accessToken": "***",
+    "verificationToken": "***"
+  }
+}
