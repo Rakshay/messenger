@@ -1,0 +1,35 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "foward": "lt --port 3000 --subdomain noahsmessengerbot",
+    "start": "node index.js",
+    "documenter": "jsdoc --configure .jsdoc.json"
+  },
+  "author": "Noah Vaillancourt",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.17.1",
+    "bootbot": "^1.0.12",
+    "chrono-node": "^1.3.1",
+    "config": "^1.26.1",
+    "cosmicjs": "^2.39.0",
+    "dotenv": "^4.0.0",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.6",
+    "nconf": "^0.10.0",
+    "node-schedule": "^1.2.1",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "jsdoc": "^3.5.5",
+    "minami": "^1.2.3"
+  }
+}
