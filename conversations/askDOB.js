@@ -4,7 +4,7 @@ const fetchUserDOB = function (convo) {
   return new Promise((resolve, reject) => {
     convo.ask(`What's your DOB ? (YYYY-MM-DD)`, (payload, convo) => {
       const text = payload.message.text;
-      if (moment(text).isValid()) {
+      if (moment(text, 'YYYY-M-D', true).isValid()) {
         convo.set('dob', text);
         resolve(convo);
       } else {
